@@ -1,8 +1,9 @@
 #!/usr/bin/python3
+#this program works exactly like the python bytecode
 def magic_calculation(a, b, c):
-    #this programe does exactly the same the bytecode provided by alx
-if a < b:
-        return (c)
-    if c > b:
-        return (a + b)
-    return (a*b - c)
+    if a < b:
+        return c
+    elif c > b:
+        return a + b
+
+    return a * b - c

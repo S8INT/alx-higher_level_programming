@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#this program works exactly like the python bytecode
+# this program works exactly like the python bytecode
 def magic_calculation(a, b, c):
     if a < b:
         return c
